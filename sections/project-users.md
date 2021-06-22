@@ -23,5 +23,5 @@ Users are associated to a project by [Assignments](assignments.md).
 ```
 GET  /api/v1/projects/<project_id>/users
 
- curl 'https://vnext.10000ft.com/api/v1/projects/project_id/users?fields=tags,assignments&auth=...'
+ curl 'http://api.rm.smartsheet.com/api/v1/projects/project_id/users?fields=tags,assignments&auth=...'
 ```
